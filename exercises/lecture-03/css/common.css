@@ -1,0 +1,20 @@
+/* --Завдання 6-- */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* more styles */
+  @import url("my-imported-styles.css");
+  
+  
+  /* --Завдання 7-- */
+  html {
+    --primary-text-color: #000;
+    --primary-bg-color: #fff;
+  }
+  
+  footer {
+    --footer-text-color: #fff;
+    --fuuter-bg-color: #000;
+  }
