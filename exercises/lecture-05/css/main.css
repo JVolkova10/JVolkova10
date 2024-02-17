@@ -1,0 +1,26 @@
+/* --Завдання 3-- */
+div {
+    font-size: 1em; /* розмір шрифту для body встановлено на 16 пікселів*/
+  }
+  
+  span {
+    font-size: 1.6em; /*Слова «Outer» відображається з розміром 25,6 пікселів: 16px * 1.6 = 25,6px */
+  }
+  
+  span > span {
+    font-size: 1.6em; /* слово «inner» — 40,96 пікселів: 25,6 * 1.6 = 40.96px */
+  }
+  
+  /* --Завдання 4-- */
+  div strong {
+    font-size: 1.6em;
+  }
+  
+  div strong > strong {
+    font-size: inherit;
+  }
+
+  /* --Завдання 5-- */
+  ul {
+    list-style-type: square;
+  }
