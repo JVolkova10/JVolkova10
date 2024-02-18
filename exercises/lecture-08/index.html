@@ -1,0 +1,117 @@
+<!--Завдання 1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<style>
+	.box{ 
+		padding: 10px 20px 25px 20px;
+    	margin: 25px 20px 25px 20px;	 
+	}
+    /*Завдання 2
+    Обчислити ширину елемента .box*/   
+              
+        .box{   
+        width: 300px; 
+        padding: 10px; 
+        border: dashed 2px green;
+        }
+    /*
+        <div class="box">300px(width)+10px(padding)+2px(border)=312px</div>
+    */
+    /*Завдання 3
+    Обчислити ширину і висоту елемента .first-box*/
+        .first-box {
+        width: 200px;
+        height: 100px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+        }
+    /*
+        <body>
+        <div class="first-box">
+            Ширина=200px(width) + 20px(padding) + 20px(padding) + 8px(border) + 8px(border) = 256px;
+            Висота=100px(height) + 40px (padding) + 16px (border) = 156px
+        </div>
+        </body>
+    */
+
+    /*Завдання 4
+    Обчислити ширину і висоту елемента .second-box*/
+        .second-box {
+        width: 200px;
+        height: 100px;
+        border: 8px solid blue;
+        background: yellow;
+        }
+    /*
+    <body>
+    <div class="second-box">
+        Ширина=200px(width) + 16px(border)= 216px;
+        Висота=100px(height) + 16px(border) = 116px
+    </div>
+    </body>
+    */
+  
+    /*Завдання 5
+    Обчислити ширину елемента div
+        div{
+            box-sizing:content-box;
+            width: 200px;
+            border: 8px solid blue;
+            padding: 20px;
+            background: yellow;
+        }
+        Ширина=200px(width) + 16px(border) + 40px(padding) = 256px 
+    
+    Завдання 6
+    Обчислити ширину контенту елемента div
+        div{
+            box-sizing:border-box;
+            width: 200px;
+            border: 8px solid blue;
+            padding: 20px;
+            background: yellow;
+        }
+        Ширина=200px(width) - 16px(border) - 40px(padding) = 144px
+    
+    Завдання 7
+        */
+            div {
+                border: 10px dotted black;
+                padding: 15px;
+                background: lightblue;
+            }
+        
+        /*Правило для example1: фон всередині елемента має простягатися за межі рамки.*/
+        #example1{
+            background-clip: border-box;
+        }
+        
+        /*Правило для example2: фон всередині елемента має простягатися до внутрішнього краю рамки.*/
+         #example2 {
+        background-clip: padding-box;
+  }
+
+        /*Правило для example3: фон всередині елемента має простягатися до краю поля вмісту.*/
+        #example3 {
+        background-clip: content-box;
+        }
+        
+    /*Завдання 7
+    Є заголовок з властивістю display: inline-block, який потрібно розбити на два рядки. Його ширина має бути динамічною.
+    */
+        h1 {
+            display: inline-block;
+            width: min-content;
+        }
+
+	</style>
+</head>
+<body>
+   <div class="box"></div>
+</body>
+</html>
