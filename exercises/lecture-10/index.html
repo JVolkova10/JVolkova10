@@ -8,7 +8,34 @@
 
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
-   
+    <style>
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            width: 700px;            
+        }
+
+        .item-blue {
+            background-color: blue;
+            flex-grow: 3;
+            /*ширина 400 рх*/
+        }
+        .item-orange {
+            background-color:orange;
+            /*ширина 100 рх*/ 
+        }
+        .item-green {
+            background-color:green;
+            flex-grow: 1;
+            /*ширина 200 рх*/
+        }
+
+        .item {
+            color: white;
+            width: 100px;
+        }
+    </style>
+
 </head>
 <body>
     <h2>CSS Flex Property</h2>
