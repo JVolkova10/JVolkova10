@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+    }
+
+    .item-blue {
+        background-color: blue;
+    }
+    .item-orange {
+        background-color:orange;  
+    }
+    .item-green {
+        background-color:green;
+    }
+
+    .item {
+        color: white;
+        width: 100px;
+  }
+
+  
+  
+
+
+
+
+
+
