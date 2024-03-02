@@ -1,0 +1,28 @@
+/*Завдання 2
+2.1 Зробіть копію каталогу layout
+2.2 Створіть сітку з 3-х колонок.
+2.3 Налаштуйте grid-властивості так, щоб header займав 3 колонки, main - 2 колонки, footer - 3 колонки.*/
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+}
+
+.header {
+   grid-area: header;
+   }
+  
+.main {
+   grid-area: main;
+   }
+  
+.sidebar {
+    grid-area: sidebar;
+    }
+
+.footer {
+    grid-area: footer;
+    }
